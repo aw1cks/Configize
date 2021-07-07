@@ -1,15 +1,20 @@
 ---
 
-image: python:latest
+stages:
+  - unittest
+  - pypi
 
 unittest:
+  stage: unittest
+  image: docker.io/kiwicom/tox:latest
   only:
     - tags
   script:
-    - pip install --upgrade setuptools tox
     - tox
 
 pypi:
+  stage: pypi
+  image: docker.io/python:latest
   only:
     - tags
   script:
