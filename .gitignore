@@ -1,0 +1,5 @@
+.tox/
+Configize.egg-info/
+dist/
+src/__pycache__/
+venv/
