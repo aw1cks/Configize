@@ -1,3 +1,4 @@
+.mypy-cache/
 .tox/
 Configize.egg-info/
 dist/
