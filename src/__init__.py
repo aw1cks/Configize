@@ -2,7 +2,7 @@ import pathlib
 import sys
 import yaml
 
-from typing import Tuple as Tuple
+from typing import Tuple as Tuple, Optional as Optional
 from xdg import BaseDirectory as BaseDirectory # type: ignore
 
 
