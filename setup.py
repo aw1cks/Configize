@@ -11,7 +11,7 @@ setup(
     platforms = [
         "linux",
     ],
-    version = "1.0.0",
+    version = "1.0.1",
     license = "AGPLv3",
     description = "Load YAML configuration respecting XDG",
     long_description = long_description,
@@ -36,7 +36,6 @@ setup(
     },
     classifiers = [
         "Development Status :: 3 - Alpha",
-        "Intended Audience :: End Users/Desktop",
         "License :: OSI Approved :: GNU Affero General Public License v3",
         "Operating System :: POSIX :: Linux",
         "Programming Language :: Python :: 3 :: Only",
